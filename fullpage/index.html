@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fullpage.css">
+</head>
+<body>
+    <div class="wrap" id="wrap">
+        <div class="wrap2" id="wrap2">
+            <div class="page" style="background-color: aqua">page1</div>
+            <div class="page" style="background-color: yellow">page2</div>
+            <div class="page" style="background-color: red">page3</div>
+            <div class="page" style="background-color: blueviolet">page4</div>
+        </div>
+    </div>
+    <script src="./fullpage.js"></script>
+    <script>
+        pages({
+            wrap: "wrap",
+            wrap2: "wrap2",
+            len: 4,
+            n: 0
+        });
+    </script>
+    
+</body>
+</html>
